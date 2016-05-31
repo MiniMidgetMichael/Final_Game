@@ -66,6 +66,7 @@ if __name__ == "__main__":
     screen = turtle.Screen()
     p1, p2, players = main_menu(screen)
     canvas = screen.getcanvas()
+    screen.bgpic("P:/Python/Final_Game/Game_Final/Resources/Grid.gif")
     screen.setup(900, 900)
 
     play(p1, p2, players)
